@@ -4,8 +4,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vítor Maziero | Portfólio</title>
+    <title>vitor_mo - Profile</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/skull/default/24px.svg">
 </head>
 <body>
 
@@ -36,26 +37,64 @@
     </section>
 
     <section id="sobre" class="container">
-        <h2>About Me</MEnu></h2>
-        <p>
-            I'm a student passionate about programming, electronics, technology and game development, 
-            I actively participate in related projects and initiatives to expand my skills and contribute 
-            to innovative solutions, while sharing my work in Social Medias.<br><br>
-            🇧🇷 Brazilian Portuguese: Native language. <br>
-            🇺🇸 English: Fluent, professional capacity.<br>
-            🇪🇸 Spanish: Learning.<br>
-        </p>
-    </section>
+    <div class="about-wrapper">
+        <div class="about-text">
+            <h2><i class="fas fa-user"></i> About Me</h2>
+            <p>
+                I'm a student passionate about programming, electronics, technology, and game development. 
+                I actively participate in robotics competitions and innovative projects to expand my skills 
+                and contribute to tech solutions, while sharing my journey on social media.
+            </p>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-item">
+                <h3><i class="fas fa-language"></i> Languages</h3>
+                <div class="languages">
+                    <span class="lang-tag"><b>🇧🇷 PT-BR:</b> Native</span>
+                    <span class="lang-tag"><b>🇺🇸 EN-US:</b> Fluent</span>
+                    <span class="lang-tag"><b>🇪🇸 ES-ES:</b> Learning</span>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <p>Industrial Automation Student at <strong>IFSul</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="container">
         <details>
             <summary>Projects</summary>
             <div class="grid">
 
+                <a href="https://discord.gg/S7JQrcdH" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/projects/usja.png" alt="Game"></div>
+                        <div class="card-info"><h3>UnderSwap: Jade & Amethyst</h3><p>My first big game development.</p></div>
+                    </div>
+                </a>
+
                 <a href="https://youtu.be/PYgpb41V30s" target="_blank" class="card-link">
                     <div class="card">
-                        <div class="card-image"><img src="img/fnf_mod.png" alt="Game"></div>
+                        <div class="card-image"><img src="img/projects/fnf_mod.png" alt="Game"></div>
                         <div class="card-info"><h3>FNF' DustSwap</h3><p>My Friday Night Funkin' Mod.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@vitor_mo/videos" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/type.png" alt="Game"></div>
+                        <div class="card-info"><h3>TypeWheel</h3><p>Educational Game.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@vitor_mo/videos" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/cartlit.png" alt="Game"></div>
+                        <div class="card-info"><h3>Literary Cartographies</h3><p>Programmer and Project member.</p></div>
                     </div>
                 </a>
 
@@ -63,6 +102,13 @@
                     <div class="card">
                         <div class="card-image"><img src="img/projects/ardcar.webp" alt="Game"></div>
                         <div class="card-info"><h3>Arduino Car</h3><p>My first big code development.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/vitor-m-o/arduino_car_v1" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/projects/foodesp.png" alt="Game"></div>
+                        <div class="card-info"><h3>Food Dispenser</h3><p>My first project development.</p></div>
                     </div>
                 </a>
                 
@@ -85,12 +131,52 @@
                 <a href="docs/cbr2025.pdf" target="_blank" class="card-link">
                     <div class="card">
                         <div class="card-image">
-                            <img src="img/cbr2025.png" alt="Preview do PDF">
+                            <img src="img/experiences/rbj2025.png" alt="Preview do PDF">
                         </div>
                         <div class="card-info">
-                            <h3><i class="fas fa-file-pdf"></i> Graxaim Bots Rescue's Leader</h3>
-                            <p>Programmer, Mechanic and Prototyper.</p>
+                            <h3><i class="fas fa-file-pdf"></i>ROBOCUP Junior 2025</h3>
+                            <p>Graxaim Bots Rescue Member: Programmer, Mechanic and Prototyper.</p>
                         </div>
+                    </div>
+                </a>
+
+                <a href="docs/cbr2025.pdf" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/experiences/cbr2025.png" alt="Preview do PDF">
+                        </div>
+                        <div class="card-info">
+                            <h3><i class="fas fa-file-pdf"></i>CBR 2025</h3>
+                            <p>Graxaim Bots Rescue Team's Leader: Programmer, Mechanic and Prototyper.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://eventos.ifsul.edu.br/documentos/imprimir?i=18215584.87185125.6.8.82155848718512568&cc=04145369-7275-4F0C-A5E6-6FAC300D7C66" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/cartlit.png" alt="Social"></div>
+                        <div class="card-info"><h3>Social Project Presentation 2025</h3><p>Programmer and project developer.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://eventos.ifsul.edu.br/documentos/imprimir?i=28467604.08770114.8010626.8.80949303844355083539298&cc=55CEF7A7-A925-44CB-BCB8-5E54997E73D3" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/type.png" alt="Game"></div>
+                        <div class="card-info"><h3>Game Project Presentation 2025</h3><p>Programmer and project developer.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://eventos.ifsul.edu.br/documentos/imprimir?i=18916080.87185125.8666239.8.89160808718512586662398&cc=04145369-7275-4F0C-A5E6-6FAC300D7C66" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/type.png" alt="Game"></div>
+                        <div class="card-info"><h3>Game Project Presentation 2024</h3><p>Programmer and project developer.</p></div>
+                    </div>
+                </a>
+
+                <a href="https://eventos.ifsul.edu.br/documentos/imprimir?i=18215584.87185125.6.8.82155848718512568&cc=04145369-7275-4F0C-A5E6-6FAC300D7C66" target="_blank" class="card-link">
+                    <div class="card">
+                        <div class="card-image"><img src="img/experiences/social.png" alt="Game"></div>
+                        <div class="card-info"><h3>Social Tech Project Presentation 2023</h3><p>Project developer.</p></div>
                     </div>
                 </a>
 
